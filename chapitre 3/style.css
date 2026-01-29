@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fond\ decran.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Texte en noir */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Fond semi-transparent */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#main-section {
+    text-align: center; /* Ajoutez un point-virgule ici */
+    padding: 100px 20px;
+}
+
+#main-section h2 {
+    font-size: 50px;
+    margin: 50px;
+}
+
+#main-section p {
+    font-size: 20px; 
+    max-width: 800px; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+#profile-image {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#profile-image img {
+    max-width: 500px;  
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+    background-color: rgba(244, 244, 244, 0.8); /* Fond semi-transparent */
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: black; /* Liens en noir */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid black; /* Bordure en noir */
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+.btn-retour {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* Bouton retour en noir */
+    text-decoration: none;
+    border: 1px solid black; /* Bordure en noir */
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.btn-retour:hover {
+    transform: scale(1.1);
+}
+
+/* Centrer les titres h2 et le paragraphe dans cv.html */
+#cv h2, #cv p {
+    text-align: center;
+}
+
+#cv-image {
+    text-align: center; /* Centre l'image */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#anssi {
+    display: flex;
+    justify-content: center;
+}
+
+#anssi #titre-anssi {
+    margin: 10px;
+}
+
+#cnil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cnil #titre-mooc {
+    margin: 10px;
+}
+
+/* Effet de survol pour les images dans moocs.html */
+#moocs img {
+    transition: transform 0.3s; /* Applique une transition de transformation */
+}
+
+#moocs img:hover {
+    transform: scale(1.1); /* Agrandit l'image de 10% au survol */
+}
+
+#travaux {
+    display: flex;
+    justify-content: center;
+}
+
+.bordure {
+    border: 2px solid white; /* Contour noir */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#bordure {
+    margin: 40px;
+}
+
+.separator-blanche {
+    border: none; /* Supprime la bordure par défaut */
+    height: 2px; /* Définissez la hauteur de la ligne */
+    background-color: white; /* Couleur de la ligne */
+    margin: 20px 0; /* Espacement autour de la ligne */
+}
+
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espace entre les images */
+}
+
+.image-wrapper {
+    text-align: center; /* Centre le texte sous l'image */
+}
+
+.image-redimensionnee {
+    width: 50%; /* Réduit la largeur de sa taille d'origine */
+    height: auto; /* Ajuste automatiquement la hauteur pour maintenir le ratio */
+}
+
+.texte-centre {
+    text-align: center; /* Centre le texte */
+}
+
+
+
+
+/* Styles globaux pour le pied de page */
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Fond semi-transparent */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: small;
+    font-weight: normal; /* Empêche le texte en gras */
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none;
+    font-weight: normal; /* Assure que le texte des liens n'est pas en gras */
+}
+
+footer p, footer ul, footer li, footer a {
+    font-weight: normal; /* Assure que les textes ne sont pas en gras */
+}
+
+
+
+main { 
+    padding-bottom: 60px; /* Compense la hauteur du pied de page fixe */ 
+}
+
+a {
+    color: white; /* Texte des liens en noir */
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: black; /* Couleur de la ligne */
+    margin: 20px 0; /* Espacement autour de la ligne */
+}
